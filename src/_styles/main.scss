@@ -1,0 +1,50 @@
+// Import Modules
+@import '../_modules/link/link';
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+$margin-default: 15px;
+$radius-default: 6px;
+
+h1 {
+  font-size: 2em;
+  color: red;
+}
+
+.yeogurt-info {
+  text-align: center;
+  max-width: 500px;
+
+  border: solid 3px green;
+  margin: $margin-default;
+  border-radius: $radius-default;
+  padding: $margin-default;
+
+  > * {
+    //border: dashed 1px blue;
+    //margin-left: $margin-default;
+    //margin-right: $margin-default;
+  }
+
+}
+
+.version {
+  font-size: 14px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.logo {
+  margin-top: $margin-default;
+  max-width: 90px;
+}
+
+// Styling on warning for users on IE7 or below
+.browsehappy {
+  text-align: center;
+  margin: 0;
+  background: #fff8e2;
+  color: #000;
+  padding: 0.5em 0;
+}
